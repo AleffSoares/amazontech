@@ -1,0 +1,34 @@
+
+// CORES
+$cor-1: #0597E6;
+$cor-2: #6FA8C7;
+$cor-3: #F1FFFF;
+$cinza: #2a2426;
+
+// FONTES
+$fonte-1: 'Press Start 2P', cursive;
+$fonte-2: 'Roboto Slab', serif;
+
+@function em($pixel, $contexto: 16) {
+    @return $pixel / $contexto + em;
+}
+
+@mixin tipo-1 {
+    font-family: $fonte-1;
+}
+
+@mixin tipo-2 {
+    font-family: $fonte-2;
+    @if $size == 45 {
+        font-size: em(45);
+    }
+    @else if $size == 24 {
+        font-size: em(24);
+        line-height: em(30, 24);
+    }
+    @else if $size == 16 {
+        font-size: em(16);
+        line-height: em(30, 16);
+    }
+    
+}

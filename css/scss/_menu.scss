@@ -1,0 +1,26 @@
+
+
+.navbar {
+    background: $cor-4;
+    padding: 10px;
+}
+
+.logo {
+    margin-top: 8px;
+    a {
+        text-decoration: none;
+        color: $cinza;
+        @include tipo-3(45);
+    }
+}
+
+.menu {
+    @include tipo-2(16);
+
+    li {
+        display: inline-block;
+        padding: 15px;
+        margin-left: 10px;
+    }
+
+}

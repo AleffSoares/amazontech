@@ -209,3 +209,74 @@ table {
   display: table;
   clear: both;
 }
+
+body {
+  background: #F1FFFF;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  line-height: 1.875em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cabecalho {
+  background: #0597E6;
+}
+
+.tel {
+  color: #F1FFFF;
+  float: right;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.875em;
+  line-height: 2.14286em;
+}
+
+.contato {
+  color: #F1FFFF;
+  float: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.875em;
+  line-height: 2.14286em;
+}
+
+.navbar {
+  background: #FFFFFF;
+  padding: 10px;
+}
+
+.logo {
+  margin-top: 8px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #2a2426;
+  font-family: "Oleo Script", cursive;
+  font-size: 2.8125em;
+}
+
+.menu {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  line-height: 1.875em;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 15px;
+  margin-left: 10px;
+}

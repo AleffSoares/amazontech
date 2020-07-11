@@ -1,0 +1,17 @@
+
+.cabecalho {
+    background: $cor-1;
+}
+
+.tel {
+    color: $cor-3;
+    float: right;
+    @include tipo-2(14);
+   
+}
+
+.contato {
+    color: $cor-3;
+    float: left;
+    @include tipo-2(14);
+}
